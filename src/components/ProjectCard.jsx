@@ -23,10 +23,8 @@ const ProjectCard = ({ project }) => {
         ))}
       </div>
 
-      {/* Buttons for Live Demo & GitHub Code */}
       <div className="mt-3 flex gap-2">
         <a
-          // href={project.liveDemo}
           href={
             project.liveDemo.startsWith("http")
               ? project.liveDemo

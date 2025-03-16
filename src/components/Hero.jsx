@@ -7,7 +7,7 @@ const Hero = () => {
 
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; // अपना असली PDF path डालें
+    link.href = "/resume.pdf";
     link.download = "Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -73,7 +73,7 @@ const Hero = () => {
           className="flex gap-6 sm:gap-8 mt-6"
         >
           <a
-            href="mailto:your-email@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=abhisheksharmaword@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -81,16 +81,14 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/abhishek-sharma-248390309"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="text-4xl sm:text-5xl text-gray-900 dark:text-white hover:text-blue-400 transition" />
           </a>
-
-          {/* GitHub */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Abhishek-sharma-project"
             target="_blank"
             rel="noopener noreferrer"
           >

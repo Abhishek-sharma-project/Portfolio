@@ -10,11 +10,9 @@ const Contact = () => {
         <p className="text-gray-600 dark:text-gray-300 mt-4 text-lg">
           Let's connect! Feel free to reach out.
         </p>
-
-        {/* Social Media Links */}
         <div className="flex justify-center gap-6 mt-6">
           <a
-            href="mailto:your-email@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=abhisheksharmaword@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 dark:text-gray-300 hover:text-red-500 text-3xl transition-transform transform hover:scale-110"
@@ -22,7 +20,7 @@ const Contact = () => {
             <FaEnvelope />
           </a>
           <a
-            href="https://www.linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/abhishek-sharma-248390309"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 dark:text-gray-300 hover:text-blue-600 text-3xl transition-transform transform hover:scale-110"
@@ -30,7 +28,7 @@ const Contact = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/Abhishek-sharma-project"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 dark:text-gray-300 hover:text-black text-3xl transition-transform transform hover:scale-110"
