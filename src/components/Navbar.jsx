@@ -8,12 +8,9 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full bg-white dark:bg-gray-900 shadow-md py-4 z-50">
       <div className="container mx-auto flex justify-between items-center px-6">
-        {/* Logo (Bigger Size) */}
         <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white">
           Abhishek Sharma
         </h1>
-
-        {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8">
           {["home", "projects", "skills", "about", "contact"].map((item) => (
             <li key={item}>
@@ -28,8 +25,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        {/* Mobile Menu Button */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-gray-900 dark:text-white text-2xl"
@@ -37,8 +32,6 @@ const Navbar = () => {
           {menuOpen ? <FiX /> : <FiMenu />}
         </button>
       </div>
-
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-white dark:bg-gray-900 shadow-md">
           <ul className="flex flex-col items-center space-y-5 py-6">
