@@ -34,7 +34,7 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white drop-shadow-lg"
       >
-        Hi, I'm a Web Developer
+        Hi, I'm a Full Stack Developer
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -42,7 +42,7 @@ const Hero = () => {
         transition={{ duration: 1.5 }}
         className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mt-4 max-w-2xl"
       >
-        Building modern, responsive, and user-friendly web applications.
+        I build clean, scalable and production-ready web applications.
       </motion.p>
 
       <div className="flex gap-6 mt-6">
@@ -50,7 +50,7 @@ const Hero = () => {
           whileHover={{ scale: 1.05, transition: { duration: 0.1 } }}
           whileTap={{ scale: 0.9 }}
           onClick={handleResumeDownload}
-          className="bg-gray-900 text-white px-5 sm:px-7 py-2 sm:py-2.5 text-sm sm:text-base font-semibold rounded-full shadow-lg hover:bg-black transition"
+          className="bg-gray-900 text-white px-5 sm:px-7 py-2 sm:py-2.5 text-sm sm:text-base font-semibold rounded-full shadow-lg hover:bg-black transition-all duration-300 ease-in-out cursor-pointer"
         >
           Download Resume
         </motion.button>
@@ -59,7 +59,7 @@ const Hero = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={() => setShowLinks(!showLinks)}
-          className="bg-blue-600 text-white px-5 sm:px-7 py-2 sm:py-2.5 text-sm sm:text-base font-semibold rounded-full shadow-lg hover:bg-blue-700 transition"
+          className="bg-blue-600 text-white px-5 sm:px-7 py-2 sm:py-2.5 text-sm sm:text-base font-semibold rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 ease-in-out cursor-pointer"
         >
           Contact Me
         </motion.button>

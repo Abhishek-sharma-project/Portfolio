@@ -5,78 +5,77 @@ const About = () => {
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
           About Me
         </h2>
+
         <div className="max-w-3xl mx-auto bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg">
+          {/* INTRODUCTION */}
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            I'm a{" "}
             <span className="font-semibold text-blue-600 dark:text-blue-400">
-              Frontend Developer
+              Full Stack Developer
             </span>{" "}
-            with a strong focus on building interactive, user-friendly, and
-            high-performance web applications.
+            who enjoys turning ideas into clean, scalable and production-ready
+            web applications.
           </p>
-          <p className="mt-4 text-gray-600 dark:text-gray-300">
-            I specialize in
+
+          {/* PROJECT EXPERIENCE */}
+          <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
+            I've built multiple real-world projects, including a complete{" "}
             <span className="font-medium text-blue-600 dark:text-blue-400">
-              {" "}
-              React.js, Redux Toolkit, Tailwind CSS, Firebase, Bootstrap, and
-              Git & GitHub
-            </span>
-            , crafting seamless and modern web experiences.
+              Learning Management System (LMS)
+            </span>{" "}
+            featuring authentication, roles, payments, lessons and course
+            progress tracking. I focus on smooth user experience and efficient
+            backend architecture.
           </p>
 
-          <div className="mt-6">
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-              ⚡Tech Stack
-            </h3>
-            <ul className="flex flex-wrap justify-center gap-3 mt-3">
-              {[
-                "React.js",
-                "Redux Toolkit",
-                "Tailwind CSS",
-                "Firebase",
-                "Bootstrap",
-                "Git & GitHub",
-              ].map((tech, index) => (
-                <li
-                  key={index}
-                  className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full text-gray-900 dark:text-white text-sm"
-                >
-                  {tech}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* TECH SUMMARY */}
+          <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
+            My core stack includes{" "}
+            <span className="font-medium text-blue-600 dark:text-blue-400">
+              React, Node.js, Express, MongoDB, JWT Authentication, and REST
+              APIs
+            </span>
+            , along with modern tools like Tailwind CSS, Redux Toolkit,
+            Firebase, and Git & GitHub.
+          </p>
 
+          {/* EDUCATION */}
           <div className="mt-6">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
               🎓 Education
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mt-2">
+              B.Tech in{" "}
               <span className="font-medium text-blue-600 dark:text-blue-400">
-                B.Tech in Computer Science & Engineering
+                Computer Science & Engineering (CSE)
               </span>
-            </p>
-            <p className="text-gray-600 dark:text-gray-300">
-              Strong foundation in Data Structures & Algorithms (DSA) and Web
-              Development.
             </p>
           </div>
 
+          {/* FULL STACK INTERNSHIP */}
           <div className="mt-6">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-              💼 Internship
+              💼 Full Stack Development Internship
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mt-2">
-              Frontend Development Intern at
+              Completed at{" "}
               <span className="font-medium text-blue-600 dark:text-blue-400">
-                {" "}
                 Learn and Build
               </span>
+              , where I worked on both frontend and backend features across the
+              MERN stack.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Built reusable UI components, REST APIs, authentication flows, and
+              integrated databases for production-ready modules.
             </p>
           </div>
 
-          <p className="mt-6 text-gray-700 dark:text-gray-300">
-            Constantly learning and exploring new technologies to build seamless
-            web experiences!
+          {/* CLOSING */}
+          <p className="mt-6 text-gray-700 dark:text-gray-300 leading-relaxed">
+            I enjoy learning new technologies, improving my craft, and building
+            applications that solve real problems. My goal is to grow as a full
+            stack engineer and contribute to impactful products.
           </p>
         </div>
       </div>
